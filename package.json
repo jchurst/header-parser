@@ -1,0 +1,29 @@
+{
+  "name": "header-parser",
+  "version": "1.0.0",
+  "description": "Display IP address, language and OS of visitor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchurst/header-parser.git"
+  },
+  "keywords": [
+    "FCC",
+    "JCHurst",
+    "IP",
+    "OS",
+    "Header"
+  ],
+  "author": "JC Hurst",
+  "license": "GPL-2.0",
+  "bugs": {
+  "url": "https://github.com/jchurst/header-parser/issues"
+  },
+  "homepage": "https://github.com/jchurst/header-parser#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
