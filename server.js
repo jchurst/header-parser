@@ -2,7 +2,7 @@
 // packages
 var express = require('express'); // express
 var app = express(); // define app
-var routes = require('./app/routes/index.js');
+var routes = require('./app/index.js');
 var port = process.env.PORT || 8080; // port
 app.use(function(req, res, next) {
 	res.header("Access-Control-Allow-Origin", "*");
